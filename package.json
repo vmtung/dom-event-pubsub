@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "description": "JS library for managing DOM events with a single listener per event type, streamlining event handling and improving performance.",
   "main": "dist/index.js",
+  "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p tsconfig.json"
+    "build": "parcel build --no-source-maps"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,16 @@
   "homepage": "https://github.com/vmtung/dom-event-pubsub#readme",
   "files": [
     "dist"
-  ]
+  ],
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.12.0",
+    "@parcel/transformer-typescript-types": "^2.12.0",
+    "parcel": "^2.12.0",
+    "typescript": "^5.5.4"
+  },
+  "targets": {
+    "main": {
+      "optimize": true
+    }
+  }
 }
