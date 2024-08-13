@@ -1,0 +1,33 @@
+{
+  "name": "dom-event-pubsub",
+  "version": "0.0.1",
+  "description": "JS library for managing DOM events with a single listener per event type, streamlining event handling and improving performance.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmtung/dom-event-pubsub.git"
+  },
+  "keywords": [
+    "dom",
+    "events",
+    "pubsub",
+    "html",
+    "js",
+    "utility",
+    "unify"
+  ],
+  "author": "Tung M. Vu <vmtung93@gmail.com> (https://tungvu.tech/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmtung/dom-event-pubsub/issues"
+  },
+  "homepage": "https://github.com/vmtung/dom-event-pubsub#readme",
+  "files": [
+    "dist"
+  ]
+}
