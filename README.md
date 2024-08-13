@@ -51,6 +51,10 @@ myListener.addEventListener('click', handleButtonClick)
 myListener.removeEventListener('click', handleButtonClick)
 ```
 
+## Note on Performance
+
+By default, this library uses passive event listeners for better performance. Passive event listeners can improve scrolling performance by allowing the browser to perform optimizations knowing that the event listener will not call preventDefault().
+
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.

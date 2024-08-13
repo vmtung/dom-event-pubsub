@@ -17,7 +17,7 @@ export class EventPubSub {
     listeners.push(callback);
 
     if (listeners.length === 1) {
-      this.target.addEventListener(eventName, this.handleEvent);
+      this.target.addEventListener(eventName, this.handleEvent, { passive: true });
     }
   }
 
