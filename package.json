@@ -1,6 +1,6 @@
 {
   "name": "dom-event-pubsub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS library for managing DOM events with a single listener per event type, streamlining event handling and improving performance.",
   "main": "dist/index.js",
   "source": "src/index.ts",
